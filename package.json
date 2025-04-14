@@ -1,0 +1,28 @@
+{
+  "name": "home-project-17",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "sass --watch scss:assets/css",
+    "scss:build": "sass scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DudnykIv25/Home-project-17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DudnykIv25/Home-project-17/issues"
+  },
+  "homepage": "https://github.com/DudnykIv25/Home-project-17#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5"
+  },
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}
