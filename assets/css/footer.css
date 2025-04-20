@@ -1,0 +1,88 @@
+.studies-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 125%;
+  color: #000;
+  max-width: 257px;
+  margin-bottom: 28px;
+}
+
+.footer-icon {
+  margin-top: 31px;
+}
+
+.riding-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000;
+  max-width: 290px;
+  margin-top: 11px;
+}
+
+.footer-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  margin-top: 15px;
+  border: none;
+  background: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 92px;
+  padding-bottom: 95px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 34px;
+  padding-left: 140px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 21px;
+  width: 187px;
+}
+
+.footer-list-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  color: #000;
+}
+
+.footer-list-subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #000;
+}
+
+.lokalise-footer {
+  border-top: 1px solid black;
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+}
+
+.lokalise-footer-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #000;
+  max-width: 280px;
+  margin-left: 14px;
+}
+
+.footer-subtitle-container {
+  margin-left: auto;
+  padding-right: 76px;
+}
+
+/*# sourceMappingURL=footer.css.map */
