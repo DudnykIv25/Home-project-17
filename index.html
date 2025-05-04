@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,12 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>My project</title>
 </head>
 
 <body>
 
-    `<header class="header">
+    <header class="header">
         <div class="container">
             <div class="header-container">
 
@@ -33,6 +34,40 @@
                     <button class="btn-header-log">Log in</button>
                     <button class="btn-header-try">Try it free</button>
                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="modal-menu-logo">
+                <svg class="menu-icon-hide" width="130" height="28">
+                    <use href="/symbol-defs.svg#icon-header-logo"></use>
+                </svg>
+                <button class="burger-btn" type="submit" data-menu-open>
+                    <svg class="" width="25" height="25">
+                        <use href="/symbol-defs.svg#icon-hamb-menu"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" data-menu-close>
+                    <svg class="" width="25" height="25">
+                        <use href="/symbol-defs.svg#icon-cross-menu"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="menu-list-top">
+                        <li class="menu-list-item">Product</li>
+                        <li class="menu-list-item">Features</li>
+                        <li class="menu-list-item">Pricing</li>
+                        <li class="menu-list-item">Case studies</li>
+                        <li class="menu-list-item">Resources</li>
+                    </ul>
+                    <div class="modal-button-item">
+                        <button class="modal-btn-header-log">Log in</button>
+                        <button class="modal-btn-header-try">Try it free</button>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -62,7 +97,7 @@
                 </h2>
                 <ul class="company-list">
                     <li class="company-list-item">
-                        <svg class="company-icon" width="138" height="53">
+                        <svg class="company-icon" width="80" height="32">
                             <use href="/symbol-defs.svg#icon-specialized"></use>
                         </svg>
                     </li>
@@ -194,7 +229,7 @@
                         <h3 class="localize-item-title">Documents</h3>
                         <p class="localize-subtitle">Upload your DOCX and static HTML files.</p>
                     </li>
-                    <li class="localize-item"> <img src="sources/massege and trash can.png" alt="marketing e-mails">
+                    <li class="localize-item"> <img src="sources/massege-trash.png" alt="marketing e-mails">
                         <h3 class="localize-item-title">Marketing e-mails</h3>
                         <p class="localize-subtitle">Integrate with Salesforce Marketing Cloud (coming soon) or
                             translate static e-mails.</p>
@@ -250,9 +285,9 @@
 
         <section class="dude">
             <div class="container">
-
+                <h2 class="visually-hidden">massege-trash</h2>
                 <div class="great-platform">
-                    <div>
+                    <div class="dude-info">
                         <p class="dude-subtitle">
                             “Lokalise has turned a task we were dreading into an absolute pleasure. Great platform,
                             intuitive
@@ -282,7 +317,7 @@
 
                 <div class="translation-cake">
 
-                    <img src="sources/cake.png" alt="cake">
+                    <img class="translation-img" src="sources/cake.png" alt="cake">
 
                     <h3 class="management-title">The most-loved translation management software</h3>
 
@@ -301,7 +336,7 @@
                                 USERS LOVE US
                             </p>
                         </li>
-                        <li>
+                        <li class="translation-item">
 
                             <svg class="translation-gtwo" width="150" height="37">
                                 <use href="/symbol-defs.svg#icon-capterra"></use>
@@ -330,7 +365,7 @@
                     <p class="work-tools-subtitle">Automate processes, eliminate routine tasks, and track progress with
                         ease.</p>
 
-                    <img src="sources/bird and work-tools.png" alt="bird">
+                    <img src="sources/bird-tools.png" alt="bird">
 
                     <button class="integrate-btn">See all integrations</button>
                 </div>
@@ -354,37 +389,29 @@
     </main>
 
     <footer>
-
         <div class="container">
-
             <div class="footer-container">
-                <div>
-
+                <div class="footer-container-info">
                     <h3 class="studies-title">Case Studies</h3>
 
-                    <img src="sources/Bike.png" alt="bike">
+                    <img src="/sources/bike.png" alt="bike" class="footer-img">
 
-                    <svg class="footer-icon" width="138" height="53">
-                        <use href="/symbol-defs.svg#icon-specilized"></use>
+                    <svg class="footer-icon" width="80" height="32">
+                        <use href="/symbol-defs.svg#icon-specialized"></use>
                     </svg>
 
-                    <p class="riding-subtitle">Riding towards global success with a 100% teammate enthusiasm</p>
+                    <p class="riding-subtitle">
+                        Riding towards global success with a 100% teammate enthusiasm
+                    </p>
 
                     <button class="footer-btn">Read more</button>
-
                 </div>
 
-
                 <div class="footer-info">
-
-
-                    <div>
-
+                    <div class="footer-info-list">
                         <h4 class="footer-list-title">Product</h4>
 
                         <ul class="footer-list">
-
-
                             <li class="footer-list-subtitle">For developers</li>
                             <li class="footer-list-subtitle">For managers</li>
                             <li class="footer-list-subtitle">For translators</li>
@@ -393,17 +420,13 @@
                             <li class="footer-list-subtitle">Security</li>
                             <li class="footer-list-subtitle">Pricing</li>
                             <li class="footer-list-subtitle">Automations</li>
-
                         </ul>
                     </div>
 
-                    <div>
-
+                    <div class="footer-info-list">
                         <h4 class="footer-list-title">Support</h4>
 
-                        <ul class="footer-list">
-
-
+                        <ul class="footer-list footer-right">
                             <li class="footer-list-subtitle">Contact</li>
                             <li class="footer-list-subtitle">Documentation</li>
                             <li class="footer-list-subtitle">Status</li>
@@ -412,33 +435,24 @@
                             <li class="footer-list-subtitle">API Reference</li>
                             <li class="footer-list-subtitle">iOS and Android SDK</li>
                             <li class="footer-list-subtitle">Supported File Formats</li>
-
                         </ul>
-
                     </div>
 
-                    <div>
+                    <div class="footer-info-list">
                         <h4 class="footer-list-title">Company</h4>
                         <ul class="footer-list">
-
-
                             <li class="footer-list-subtitle">About</li>
                             <li class="footer-list-subtitle">Blog</li>
                             <li class="footer-list-subtitle">Careers | We`re Hiring</li>
                             <li class="footer-list-subtitle">Case Studies</li>
                             <li class="footer-list-subtitle">Media Kit</li>
-
                         </ul>
-
                     </div>
 
-                    <div>
-
+                    <div class="footer-info-list">
                         <h4 class="footer-list-title">Legal</h4>
 
-                        <ul class="footer-list">
-
-
+                        <ul class="footer-list footer-right">
                             <li class="footer-list-subtitle">Terms of Service</li>
                             <li class="footer-list-subtitle">Privacy Policy</li>
                             <li class="footer-list-subtitle">Cookie Policy</li>
@@ -446,37 +460,29 @@
                             <li class="footer-list-subtitle">DPA</li>
                             <li class="footer-list-subtitle">List of Sub-processors</li>
                             <li class="footer-list-subtitle">Candidates Privacy Notice</li>
-
-
                         </ul>
-
                     </div>
-
-
                 </div>
             </div>
-            <div class="lokalise-footer">
 
+            <div class="lokalise-footer">
                 <svg class="" width="90" height="21">
                     <use href="/symbol-defs.svg#icon-footer-logo"></use>
-
                 </svg>
-                <p class="lokalise-footer-subtitle">Localization workflow for your web and mobile apps, games and
-                    digital content.</p>
+                <p class="lokalise-footer-subtitle">
+                    Localization workflow for your web and mobile apps, games and
+                    digital content.
+                </p>
                 <div class="footer-subtitle-container">
                     <p class="lokalise-footer-subtitle">©2001-2020</p>
                     <p class="lokalise-footer-subtitle">All rights reserved.</p>
                 </div>
-
-
             </div>
-
         </div>
-
-
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/menu.js" defer></script>
 </body>
 
 </html>
